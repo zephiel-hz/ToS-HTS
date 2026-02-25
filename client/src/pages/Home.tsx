@@ -86,7 +86,7 @@ export default function Home() {
                     Terms of Service (ToS) Pembaruan TTM
                   </h1>
                   <p className="text-sm text-[#999999] mt-1 font-mono">
-                    Patch Version: Ramadan 2026 | Developer: Adit
+                    Patch Version: Ramadhan 2026 | Developer: Adit
                   </p>
                 </div>
               </div>
