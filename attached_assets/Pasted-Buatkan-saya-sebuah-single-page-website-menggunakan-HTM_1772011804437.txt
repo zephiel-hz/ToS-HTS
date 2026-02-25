@@ -1,0 +1,57 @@
+Buatkan saya sebuah single-page website menggunakan HTML, CSS, dan JavaScript dalam satu file (index.html). Website ini bertema "Software Update Installer" dengan dark mode (gaya UI mirip program terminal atau installer). 
+
+Tujuan website ini adalah sebagai permintaan maaf dan penawaran pola interaksi baru untuk pasangan TTM (Teman Tapi Mencintai) saya yang sedang LDR. Namaku Adit, dan namanya Cia.
+
+Berikut spesifikasi detailnya:
+
+1. TAMPILAN VISUAL (CSS)
+- Background halaman berwarna abu-abu sangat gelap (#1e1e1e).
+- Ada sebuah kotak di tengah layar (installer-box) berwarna abu-abu sedikit lebih terang (#252526) dengan border tipis dan shadow.
+- Font menggunakan sans-serif yang rapi (Segoe UI atau Roboto).
+
+2. ELEMEN HALAMAN (HTML)
+- Header: Berisi judul "Terms of Service (ToS) Pembaruan TTM" dan sub-judul "Patch Version: Ramadan 2026 | Developer: Adit".
+- Teks pengantar: "Silakan baca kesepakatan di bawah ini sebelum melanjutkan:"
+- Scrollable Box (Area ToS): Sebuah div dengan tinggi sekitar 300px yang bisa di-scroll. Teks di dalamnya WAJIB menggunakan teks ini:
+
+  "END-USER LICENSE AGREEMENT (EULA) TEMAN TAPI MENCINTAI
+  Harap baca dokumen Kesepakatan TTM ini dengan saksama sebelum melanjutkan interaksi dengan Adit.
+  
+  PASAL 1: PENGAKUAN KELALAIAN PIHAK PERTAMA
+  Adit mengakui bahwa rutinitas 'gitu-gitu doang' telah menyebabkan bug kebosanan pada Cia. Adit juga mengakui adanya intervensi ego saat ditegur masalah effort.
+  
+  PASAL 2: KLASIFIKASI KOPI OJOL
+  Kopi ojol siang ini bukanlah sebuah solusi permanen, melainkan upaya troubleshooting darurat agar Cia tidak ngantuk dan tetap semangat kerjanya, walau lagi puasa dan lagi marah.
+  
+  PASAL 3: PEMBARUAN PROTOKOL INTERAKSI (SPESIAL RAMADAN)
+  Agar tidak bosan, Adit merombak pola komunikasi menjadi 2 mode:
+  
+  [A] MODE WEEKDAY (Senin - Jumat | Support Cia Kerja)
+  - FASE PAGI/SAHUR: Daripada janji palsu bangunin sahur tapi malah ketiduran, Adit bakal ninggalin pesan spesial atau Voice Note (VN) tiap malam buat nemenin Cia sahur. Pagi harinya, Adit bakal share lagu penyemangat dan target kegiatan hari ini biar kita sama-sama produktif.
+  - FASE SIANG (Mid-day Sync): Bebas repot. Cukup kirim PAP random (muka lemes puasa, pemandangan, atau layar laptop) biar tetap merasa dekat waktu Cia lagi sibuk kerja.
+  - FASE SORE (Ngabuburit & Cooling Down): Fleksibel sesuai kondisi Cia. 
+    > Kalau Cia mumet: Waktu BEBAS ngomel soal APAPUN dan Adit dengerin 100%.
+    > Kalau Cia gabut: Terdapat tiga kegiatan yang bisa dilakukan sambil ngaburutin menunggu bedug:
+				  - Kita isi ngabuburit pakai streaming main game (misal Valorant) di Discord biar Cia tinggal nonton santai. Atau mungkin sebaliknya.
+				  - Watch Party film/series di Netflix.
+				  - Mabar santai tanpa marah-marah agar tidak mengurangi pahala puasa.
+  - FASE MALAM (Habis Tarawih): Rutinitas rotasi interaktif. Bisa Video Call sambil mabar, Watch Party pilihan Cia, atau main tebak-tebakan lucu/receh biar ketawa bareng sebelum tidur.
+  
+  [B] MODE WEEKEND (Sabtu - Minggu | Quality Time & Me-Time)
+  - FASE SIANG/SORE (Ngabuburit Santai): Karena kita berdua sama-sama nggak bisa masak, ngabuburitnya kita isi dengan:
+    1. 'Virtual Traveling': Share screen jalan-jalan pake Google Street View nyari tempat halu (misal: keliling Jepang, atau nyari rumah impian).
+    2. 'Me-Time': Bebas rebahan, drakoran, main game, atau ngelakuin kesibukan sendiri tanpa hilang kabar atau nyuekin.
+  - FASE MALAM: Virtual Date! VC dengan baju rapi sedikit, makan menu hasil jajan masing-masing di depan kamera, dilanjut ngobrol santai tanpa distraksi game.
+  
+  PASAL 4: KETENTUAN STATUS TTM
+  Mengingat status ini adalah TTM (Teman Tapi Mencintai), kebosanan adalah hal wajar. Namun, Adit menolak keras untuk uninstall (udahan) dari kehidupan Cia."
+
+- Checkbox: Di bawah box ToS, buat checkbox dengan label "Saya Cia, telah membaca, setuju dengan sistem baru ini, dan siap install patch."
+- Buttons: Di paling bawah kanan, ada dua tombol: "Decline" (warna abu-abu) dan "Accept & Maafin Adit" (warna biru).
+
+3. LOGIKA INTERAKTIF (JavaScript)
+- Checkbox AWALNYA HARUS DISABLED (tidak bisa diklik).
+- Checkbox baru menjadi ENABLED (bisa dicentang) HANYA JIKA user sudah men-scroll kotak ToS (Scrollable Box) sampai mentok ke bawah.
+- Tombol "Accept & Maafin Adit" AWALNYA HARUS DISABLED. Tombol ini baru bisa diklik jika checkbox sudah dicentang.
+- Jika tombol "Decline" diklik, munculkan pop-up browser alert lucu berbunyi: "Error: Permintaan ditolak. Adit tidak menyediakan opsi udahan. Tolong klik Accept ya cantikk."
+- Jika tombol "Accept & Maafin Adit" diklik, sembunyikan kotak installer utama dan tampilkan layar "Success Screen" di tengah layar dengan teks: "Update Berhasil Diinstal! ✅ Terima kasih sayang. Semangat lanjut kerjanya. Nanti malam habis tarawih Adit bakal nelpon untuk sinkronisasi data. Jangan di-reject ya."

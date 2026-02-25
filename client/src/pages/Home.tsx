@@ -66,7 +66,7 @@ export default function Home() {
             <div className="h-10 border-b border-[#3c3c3c] flex items-center px-4 justify-between bg-[#1e1e1e]/50 select-none">
               <div className="flex items-center gap-2 text-[#cccccc]/70 text-xs font-mono">
                 <Terminal className="w-3.5 h-3.5" />
-                <span>HTS Update Setup</span>
+                <span>TTM Update Setup</span>
               </div>
               <div className="flex gap-2">
                 <div className="w-3 h-3 rounded-full bg-[#3c3c3c] hover:bg-yellow-500/50 transition-colors" />
@@ -83,10 +83,10 @@ export default function Home() {
                 </div>
                 <div>
                   <h1 className="text-2xl font-semibold text-white tracking-tight">
-                    Terms of Service (ToS) Pembaruan HTS
+                    Terms of Service (ToS) Pembaruan TTM
                   </h1>
                   <p className="text-sm text-[#999999] mt-1 font-mono">
-                    Patch Version: 25.02.2026 | Developer: Adit
+                    Patch Version: Ramadan 2026 | Developer: Adit
                   </p>
                 </div>
               </div>
@@ -100,38 +100,74 @@ export default function Home() {
                 <div 
                   ref={scrollRef}
                   onScroll={handleScroll}
-                  className="h-[220px] bg-[#1e1e1e] border border-[#3c3c3c] rounded-md p-5 overflow-y-auto custom-scrollbar text-sm text-[#cccccc] leading-relaxed relative"
+                  className="h-[300px] bg-[#1e1e1e] border border-[#3c3c3c] rounded-md p-5 overflow-y-auto custom-scrollbar text-sm text-[#cccccc] leading-relaxed relative"
                 >
                   <div className="font-mono text-xs text-primary mb-4 border-b border-[#3c3c3c]/50 pb-2">
                     // LICENSE_AGREEMENT.md
                   </div>
                   
                   <p className="font-semibold text-white mb-4">
-                    END-USER LICENSE AGREEMENT (EULA) HUBUNGAN TANPA STATUS
+                    END-USER LICENSE AGREEMENT (EULA) TEMAN TAPI MENCINTAI
                   </p>
                   
                   <p className="mb-4">
-                    Harap baca dokumen Kesepakatan HTS ini dengan saksama sebelum melanjutkan interaksi dengan Adit.
+                    Harap baca dokumen Kesepakatan TTM ini dengan saksama sebelum melanjutkan interaksi dengan Adit.
                   </p>
                   
                   <h3 className="font-semibold text-white mt-6 mb-2">PASAL 1: PENGAKUAN KELALAIAN PIHAK PERTAMA</h3>
                   <p className="mb-4">
-                    Pihak Pertama (Adit) mengakui bahwa rutinitas 'gitu-gitu doang' seperti main game dan watch party telah menyebabkan bug kebosanan tingkat tinggi pada sistem Pihak Kedua (Cia). Adit juga mengakui adanya intervensi ego saat dikritik sebagai cowok low effort.
+                    Adit mengakui bahwa rutinitas 'gitu-gitu doang' telah menyebabkan bug kebosanan pada Cia. Adit juga mengakui adanya intervensi ego saat ditegur masalah effort.
                   </p>
                   
                   <h3 className="font-semibold text-white mt-6 mb-2">PASAL 2: KLASIFIKASI KOPI OJOL</h3>
                   <p className="mb-4">
-                    Pihak Kedua harus memahami bahwa pengiriman kopi ojol siang ini bukanlah sebuah solusi permanen, melainkan upaya troubleshooting darurat agar Cia tidak mengantuk saat sedang marah-marah.
+                    Kopi ojol siang ini bukanlah sebuah solusi permanen, melainkan upaya troubleshooting darurat agar Cia tidak ngantuk dan tetap semangat kerjanya, walau lagi puasa dan lagi marah.
                   </p>
                   
-                  <h3 className="font-semibold text-white mt-6 mb-2">PASAL 3: PEMBARUAN PROTOKOL EFFORT</h3>
+                  <h3 className="font-semibold text-white mt-6 mb-2">PASAL 3: PEMBARUAN PROTOKOL INTERAKSI (SPESIAL RAMADAN)</h3>
                   <p className="mb-4">
-                    Rutinitas HTS akan direvisi. Adit berkomitmen untuk upgrade sistem komunikasi: lebih banyak mendengarkan tanpa defensif dan mengurangi gameplay repetitif yang bikin bosen.
+                    Agar tidak bosan, Adit merombak pola komunikasi menjadi 2 mode:
                   </p>
                   
-                  <h3 className="font-semibold text-white mt-6 mb-2">PASAL 4: KETENTUAN STATUS HTS</h3>
+                  <div className="pl-4 border-l border-[#3c3c3c] my-4 space-y-4">
+                    <div>
+                      <h4 className="text-white font-medium mb-2">[A] MODE WEEKDAY (Senin - Jumat | Support Cia Kerja)</h4>
+                      <ul className="list-disc pl-5 space-y-2 text-xs">
+                        <li><span className="text-primary">FASE PAGI/SAHUR:</span> Daripada janji palsu bangunin sahur tapi malah ketiduran, Adit bakal ninggalin pesan spesial atau Voice Note (VN) tiap malam buat nemenin Cia sahur. Pagi harinya, Adit bakal share lagu penyemangat dan target kegiatan hari ini biar kita sama-sama produktif.</li>
+                        <li><span className="text-primary">FASE SIANG (Mid-day Sync):</span> Bebas repot. Cukup kirim PAP random (muka lemes puasa, pemandangan, atau layar laptop) biar tetap merasa dekat waktu Cia lagi sibuk kerja.</li>
+                        <li><span className="text-primary">FASE SORE (Ngabuburit & Cooling Down):</span> Fleksibel sesuai kondisi Cia. 
+                          <ul className="list-circle pl-5 mt-1 space-y-1">
+                            <li>Kalau Cia mumet: Waktu BEBAS ngomel soal APAPUN dan Adit dengerin 100%.</li>
+                            <li>Kalau Cia gabut: Terdapat tiga kegiatan yang bisa dilakukan sambil ngaburutin menunggu bedug:
+                              <ul className="list-[square] pl-5 mt-1">
+                                <li>Kita isi ngabuburit pakai streaming main game (misal Valorant) di Discord biar Cia tinggal nonton santai. Atau mungkin sebaliknya.</li>
+                                <li>Watch Party film/series di Netflix.</li>
+                                <li>Mabar santai tanpa marah-marah agar tidak mengurangi pahala puasa.</li>
+                              </ul>
+                            </li>
+                          </ul>
+                        </li>
+                        <li><span className="text-primary">FASE MALAM (Habis Tarawih):</span> Rutinitas rotasi interaktif. Bisa Video Call sambil mabar, Watch Party pilihan Cia, atau main tebak-tebakan lucu/receh biar ketawa bareng sebelum tidur.</li>
+                      </ul>
+                    </div>
+
+                    <div>
+                      <h4 className="text-white font-medium mb-2">[B] MODE WEEKEND (Sabtu - Minggu | Quality Time & Me-Time)</h4>
+                      <ul className="list-disc pl-5 space-y-2 text-xs">
+                        <li><span className="text-primary">FASE SIANG/SORE (Ngabuburit Santai):</span> Karena kita berdua sama-sama nggak bisa masak, ngabuburitnya kita isi dengan:
+                          <ol className="list-decimal pl-5 mt-1 space-y-1">
+                            <li>'Virtual Traveling': Share screen jalan-jalan pake Google Street View nyari tempat halu (misal: keliling Jepang, atau nyari rumah impian).</li>
+                            <li>'Me-Time': Bebas rebahan, drakoran, main game, atau ngelakuin kesibukan sendiri tanpa hilang kabar atau nyuekin.</li>
+                          </ol>
+                        </li>
+                        <li><span className="text-primary">FASE MALAM:</span> Virtual Date! VC dengan baju rapi sedikit, makan menu hasil jajan masing-masing di depan kamera, dilanjut ngobrol santai tanpa distraksi game.</li>
+                      </ul>
+                    </div>
+                  </div>
+                  
+                  <h3 className="font-semibold text-white mt-6 mb-2">PASAL 4: KETENTUAN STATUS TTM</h3>
                   <p className="mb-8">
-                    Mengingat status ini adalah HTS, segala bentuk drama dan kebosanan diakui sebagai fitur bawaan, bukan bug. Namun, Adit menolak keras untuk melakukan uninstall (udahan) dari kehidupan Cia.
+                    Mengingat status ini adalah TTM (Teman Tapi Mencintai), kebosanan adalah hal wajar. Namun, Adit menolak keras untuk uninstall (udahan) dari kehidupan Cia.
                   </p>
                 </div>
                 
@@ -173,7 +209,7 @@ export default function Home() {
                     htmlFor="tos-accept"
                     className={`text-sm font-medium leading-none peer-disabled:cursor-not-allowed transition-colors ${!isScrolledToBottom ? 'text-[#999999]/50' : 'text-white cursor-pointer'}`}
                   >
-                    Saya Cia, telah membaca dan setuju dengan patch pembaruan ini.
+                    Saya Cia, telah membaca, setuju dengan sistem baru ini, dan siap install patch.
                   </label>
                   {!isScrolledToBottom && (
                     <p className="text-[11px] text-[#999999]/70">
@@ -236,7 +272,7 @@ export default function Home() {
                       <ShieldAlert className="w-10 h-10 text-red-500 shrink-0 mt-1" />
                       <div className="text-[14px] text-[#cccccc] leading-relaxed">
                         <span className="text-white font-semibold block mb-1">Permintaan ditolak.</span>
-                        Error: Adit tidak menyediakan opsi udahan untuk saat ini. Silakan klik Accept.
+                        Error: Adit tidak menyediakan opsi udahan. Tolong klik Accept ya cantikk.
                       </div>
                     </div>
                     <div className="p-3 border-t border-[#3c3c3c] flex justify-end bg-[#1e1e1e]/50">
@@ -277,7 +313,7 @@ export default function Home() {
               transition={{ delay: 0.7 }}
               className="text-4xl font-bold text-white mb-6 tracking-tight"
             >
-              Update Berhasil Diinstal! <span className="inline-block animate-bounce" style={{ animationDuration: '2s' }}>✅</span>
+              Update Berhasil!
             </motion.h1>
             
             <motion.p 
@@ -286,7 +322,7 @@ export default function Home() {
               transition={{ delay: 0.9 }}
               className="text-lg text-[#cccccc] leading-relaxed"
             >
-              Terima kasih sayang. Nanti malam Adit bakal nelpon untuk sinkronisasi data dan dengerin semua omelan Cia. Jangan di-reject ya.
+              Update Berhasil Diinstal! ✅ Terima kasih sayang. Semangat lanjut kerjanya. Nanti malam habis tarawih Adit bakal nelpon untuk sinkronisasi data. Jangan di-reject ya.
             </motion.p>
           </motion.div>
         )}
