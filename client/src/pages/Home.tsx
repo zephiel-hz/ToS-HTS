@@ -119,9 +119,9 @@ export default function Home() {
                     Adit mengakui bahwa rutinitas 'gitu-gitu doang' telah menyebabkan bug kebosanan pada Cia. Adit juga mengakui adanya intervensi ego saat ditegur masalah effort.
                   </p>
                   
-                  <h3 className="font-semibold text-white mt-6 mb-2">PASAL 2: KLASIFIKASI KOPI OJOL</h3>
+                  <h3 className="font-semibold text-white mt-6 mb-2">PASAL 2: KLASIFIKASI KOPI YANG AKU KIRIM SIANG INI</h3>
                   <p className="mb-4">
-                    Kopi ojol siang ini bukanlah sebuah solusi permanen, melainkan upaya troubleshooting darurat agar Cia tidak ngantuk dan tetap semangat kerjanya, walau lagi puasa dan lagi marah.
+                    Kopi yang aku kirim siang ini bukanlah sebuah solusi permanen, melainkan upaya troubleshooting darurat agar Cia tidak ngantuk dan tetap semangat kerjanya.
                   </p>
                   
                   <h3 className="font-semibold text-white mt-6 mb-2">PASAL 3: PEMBARUAN PROTOKOL INTERAKSI (SPESIAL RAMADAN)</h3>
