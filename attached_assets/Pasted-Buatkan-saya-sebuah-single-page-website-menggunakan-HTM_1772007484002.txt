@@ -1,0 +1,38 @@
+Buatkan saya sebuah single-page website menggunakan HTML, CSS, dan JavaScript dalam satu file (index.html). Website ini bertema "Software Update Installer" dengan dark mode (gaya UI mirip Visual Studio Code atau installer program). 
+
+Tujuan website ini adalah sebagai permintaan maaf lucu-lucuan untuk pasangan HTS (Hubungan Tanpa Status) saya. Namaku Adit, dan namanya Cia.
+
+Berikut spesifikasi detailnya:
+
+1. TAMPILAN VISUAL (CSS)
+- Background halaman berwarna abu-abu sangat gelap (#1e1e1e).
+- Ada sebuah kotak di tengah layar (installer-box) berwarna abu-abu sedikit lebih terang (#252526) dengan border tipis dan shadow.
+- Font menggunakan sans-serif yang rapi (Segoe UI atau Roboto).
+
+2. ELEMEN HALAMAN (HTML)
+- Header: Berisi judul "Terms of Service (ToS) Pembaruan HTS" dan sub-judul "Patch Version: 25.02.2026 | Developer: Adit".
+- Teks pengantar: "Silakan baca kesepakatan di bawah ini sebelum melanjutkan:"
+- Scrollable Box (Area ToS): Sebuah div dengan tinggi sekitar 200px yang bisa di-scroll. Teks di dalamnya WAJIB menggunakan teks ini:
+  "END-USER LICENSE AGREEMENT (EULA) HUBUNGAN TANPA STATUS
+  Harap baca dokumen Kesepakatan HTS ini dengan saksama sebelum melanjutkan interaksi dengan Adit.
+  
+  PASAL 1: PENGAKUAN KELALAIAN PIHAK PERTAMA
+  Pihak Pertama (Adit) mengakui bahwa rutinitas 'gitu-gitu doang' seperti main game dan watch party telah menyebabkan bug kebosanan tingkat tinggi pada sistem Pihak Kedua (Cia). Adit juga mengakui adanya intervensi ego saat dikritik sebagai cowok low effort.
+  
+  PASAL 2: KLASIFIKASI KOPI OJOL
+  Pihak Kedua harus memahami bahwa pengiriman kopi ojol siang ini bukanlah sebuah solusi permanen, melainkan upaya troubleshooting darurat agar Cia tidak mengantuk saat sedang marah-marah.
+  
+  PASAL 3: PEMBARUAN PROTOKOL EFFORT
+  Rutinitas HTS akan direvisi. Adit berkomitmen untuk upgrade sistem komunikasi: lebih banyak mendengarkan tanpa defensif dan mengurangi gameplay repetitif yang bikin bosen.
+  
+  PASAL 4: KETENTUAN STATUS HTS
+  Mengingat status ini adalah HTS, segala bentuk drama dan kebosanan diakui sebagai fitur bawaan, bukan bug. Namun, Adit menolak keras untuk melakukan uninstall (udahan) dari kehidupan Cia."
+- Checkbox: Di bawah box ToS, buat checkbox dengan label "Saya Cia, telah membaca dan setuju dengan patch pembaruan ini."
+- Buttons: Di paling bawah kanan, ada dua tombol: "Decline" (warna abu-abu) dan "Accept & Maafin Adit" (warna biru).
+
+3. LOGIKA INTERAKTIF (JavaScript)
+- Checkbox AWALNYA HARUS DISABLED (tidak bisa diklik).
+- Checkbox baru menjadi ENABLED (bisa dicentang) HANYA JIKA Cia sudah men-scroll kotak ToS (Scrollable Box) sampai mentok ke bawah.
+- Tombol "Accept & Maafin Adit" AWALNYA HARUS DISABLED. Tombol ini baru bisa diklik jika checkbox sudah dicentang.
+- Jika tombol "Decline" diklik, munculkan pop-up browser alert lucu berbunyi: "Error: Permintaan ditolak. Adit tidak menyediakan opsi udahan untuk saat ini. Silakan klik Accept."
+- Jika tombol "Accept & Maafin Adit" diklik, sembunyikan kotak installer utama dan tampilkan layar "Success Screen" di tengah layar dengan teks: "Update Berhasil Diinstal! ✅ Terima kasih sayang. Nanti malam Adit bakal nelpon untuk sinkronisasi data dan dengerin semua omelan Cia. Jangan di-reject ya."
