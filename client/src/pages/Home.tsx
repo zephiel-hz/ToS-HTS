@@ -124,7 +124,7 @@ export default function Home() {
                     Kopi yang aku kirim siang ini bukanlah sebuah solusi permanen, melainkan upaya troubleshooting darurat agar Cia tidak ngantuk dan tetap semangat kerjanya.
                   </p>
                   
-                  <h3 className="font-semibold text-white mt-6 mb-2">PASAL 3: PEMBARUAN PROTOKOL INTERAKSI (SPESIAL RAMADAN)</h3>
+                  <h3 className="font-semibold text-white mt-6 mb-2">PASAL 3: PEMBARUAN PROTOKOL INTERAKSI (SPESIAL RAMADHAN)</h3>
                   <p className="mb-4">
                     Agar tidak bosan, Adit merombak pola komunikasi menjadi 2 mode:
                   </p>
@@ -138,7 +138,7 @@ export default function Home() {
                         <li><span className="text-primary">FASE SORE (Ngabuburit & Cooling Down):</span> Fleksibel sesuai kondisi Cia. 
                           <ul className="list-circle pl-5 mt-1 space-y-1">
                             <li>Kalau Cia mumet: Waktu BEBAS ngomel soal APAPUN dan Adit dengerin 100%.</li>
-                            <li>Kalau Cia gabut: Terdapat tiga kegiatan yang bisa dilakukan sambil ngaburutin menunggu bedug:
+                            <li>Kalau Cia gabut: Terdapat tiga kegiatan yang bisa dilakukan sambil ngabuburit menunggu bedug:
                               <ul className="list-[square] pl-5 mt-1">
                                 <li>Kita isi ngabuburit pakai streaming main game (misal Valorant) di Discord biar Cia tinggal nonton santai. Atau mungkin sebaliknya.</li>
                                 <li>Watch Party film/series di Netflix.</li>
